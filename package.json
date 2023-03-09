@@ -8,6 +8,10 @@
   },
   "author": "soniakshay",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soniakshay/react-split-flap-board"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
