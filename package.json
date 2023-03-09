@@ -1,0 +1,28 @@
+{
+  "name": "react-split-flap-board",
+  "version": "1.0.17",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "soniakshay",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "sass": "^1.58.3",
+    "lodash": "^4.17.21",
+    "sass-loader": "^7.2.0"
+  }
+}
