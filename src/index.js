@@ -257,7 +257,7 @@ function SplitFlapBoard ({
     };
     const printBoardCentertAlign = ({ strArr, rowIndex, index }) => {
         if (strArr[index]) {
-            let startPoint = col / 2 - Math.floor(strArr[index]?.length / 2);
+            let startPoint = Math.floor(col / 2 - Math.floor(strArr[index]?.length / 2));
             let stringInc = 0;
             for (let colI = 0; colI < col; colI++) {
                 if (
@@ -996,7 +996,6 @@ function SplitFlapBoard ({
                                                             <div
                                                                 className={'flipInputCol'}
                                                                 onClick={(e) => {
-                                                                    e.stopPropagation()
                                                                     if (isEmojiMode) {
                                                                         addEmojiInInput({
                                                                             row: rowIndex,
@@ -1036,3 +1035,4 @@ function SplitFlapBoard ({
         </>)
 }
 export default  forwardRef(SplitFlapBoard);
+
